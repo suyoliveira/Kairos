@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TaskFlow - Gestão Visual para Empresas</title>
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
+</head>
+<body>
+    <!-- Header -->
+    <header class="main-header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <i class="fas fa-rocket rocket-icon"></i>
+                    <span class="logo-text">Task<span class="logo-flow">Flow</span></span>
+                </div>
+                <nav class="main-nav">
+                    <ul>
+                        <li><a href="#features">Funcionalidades</a></li>
+                        <li><a href="#how-it-works">Como Funciona</a></li>
+                        <li><a href="#pricing">Preços</a></li>
+                        <li><a href="#about">Sobre Nós</a></li>
+                        <li><a href="dashboard.html" class="nav-button">Acessar Sistema</a></li>
+                    </ul>
+                </nav>
+                <button class="mobile-menu-btn">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero-section">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1 class="hero-title">Gestão Visual que <span class="highlight">Acelera</span> seu Time</h1>
+                    <p class="hero-subtitle">Criado por aprendizes para empresas que buscam eficiência. Organize tarefas, otimize onboarding e aumente a produtividade com visualização intuitiva.</p>
+                    <div class="hero-buttons">
+                        <a href="dashboard.html" class="btn btn-primary">Experimente Grátis</a>
+                        <a href="#demo" class="btn btn-secondary">
+                            <i class="fas fa-play-circle"></i> Ver Demonstração
+                        </a>
+                    </div>
+                    <div class="hero-stats">
+                        <div class="stat">
+                            <span class="stat-number">+85%</span>
+                            <span class="stat-text">Produtividade</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">-70%</span>
+                            <span class="stat-text">Tempo de Onboarding</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">100%</span>
+                            <span class="stat-text">Visual</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <div class="dashboard-preview">
+                        <div class="preview-header">
+                            <div class="preview-tabs">
+                                <span class="tab active">RH</span>
+                                <span class="tab">TI</span>
+                                <span class="tab">Vendas</span>
+                                <span class="tab">Operações</span>
+                            </div>
+                            <div class="preview-actions">
+                                <i class="fas fa-plus"></i>
+                            </div>
+                        </div>
+                        <div class="kanban-preview">
+                            <div class="kanban-column">
+                                <div class="column-header" style="border-color: #FF3B30;">
+                                    <h3>A Fazer</h3>
+                                    <span class="task-count">3</span>
+                                </div>
+                                <div class="task-card">
+                                    <div class="task-tags">
+                                        <span class="tag urgent">URGENTE</span>
+                                        <span class="tag onboarding">ONBOARDING</span>
+                                    </div>
+                                    <h4>Integrar novo colaborador</h4>
+                                    <p>Configurar acessos e treinamento inicial</p>
+                                    <div class="task-footer">
+                                        <div class="assignee">
+                                            <div class="avatar">JS</div>
+                                            <span>Joana Silva</span>
+                                        </div>
+                                        <span class="deadline">Hoje</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="kanban-column">
+                                <div class="column-header" style="border-color: #FF9500;">
+                                    <h3>Em Andamento</h3>
+                                    <span class="task-count">2</span>
+                                </div>
+                            </div>
+                            <div class="kanban-column">
+                                <div class="column-header" style="border-color: #34C759;">
+                                    <h3>Concluído</h3>
+                                    <span class="task-count">5</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="features-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Potencialize seu Time com Visualização</h2>
+                <p>Desenvolvido por aprendizes apaixonados por resolver problemas reais das empresas</p>
+            </div>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon" style="background-color: rgba(255, 59, 48, 0.1);">
+                        <i class="fas fa-columns" style="color: #FF3B30;"></i>
+                    </div>
+                    <h3>Quadros por Departamento</h3>
+                    <p>Organize tarefas visualmente com quadros personalizáveis para cada setor da empresa.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon" style="background-color: rgba(255, 149, 0, 0.1);">
+                        <i class="fas fa-user-friends" style="color: #FF9500;"></i>
+                    </div>
+                    <h3>Onboarding Visual</h3>
+                    <p>Guie novos colaboradores com checklists interativos e progresso visível.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon" style="background-color: rgba(52, 199, 89, 0.1);">
+                        <i class="fas fa-chart-line" style="color: #34C759;"></i>
+                    </div>
+                    <h3>Métricas em Tempo Real</h3>
+                    <p>Acompanhe produtividade e identifique gargalos com dados visuais.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon" style="background-color: rgba(0, 122, 255, 0.1);">
+                        <i class="fas fa-sync-alt" style="color: #007AFF;"></i>
+                    </div>
+                    <h3>Atualizações Automáticas</h3>
+                    <p>Notificações em tempo real quando tarefas são movidas ou atualizadas.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon" style="background-color: rgba(255, 204, 0, 0.1);">
+                        <i class="fas fa-mobile-alt" style="color: #FFCC00;"></i>
+                    </div>
+                    <h3>Totalmente Responsivo</h3>
+                    <p>Acesse de qualquer dispositivo com interface intuitiva e arrastar-e-soltar.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon" style="background-color: rgba(175, 82, 222, 0.1);">
+                        <i class="fas fa-shield-alt" style="color: #AF52DE;"></i>
+                    </div>
+                    <h3>Segurança Empresarial</h3>
+                    <p>Controle de acesso por níveis e backup automático dos dados.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works -->
+    <section id="how-it-works" class="how-it-works">
+        <div class="container">
+            <div class="section-header">
+                <h2>Simples, Visual, Eficiente</h2>
+                <p>Três passos para transformar a gestão da sua empresa</p>
+            </div>
+            <div class="steps-container">
+                <div class="step">
+                    <div class="step-number">1</div>
+                    <h3>Crie seus Quadros</h3>
+                    <p>Configure quadros visuais para cada departamento com colunas personalizadas.</p>
+                </div>
+                <div class="step-line"></div>
+                <div class="step">
+                    <div class="step-number">2</div>
+                    <h3>Adicione Tarefas</h3>
+                    <p>Inclua atividades com responsáveis, prazos, prioridades e documentos.</p>
+                </div>
+                <div class="step-line"></div>
+                <div class="step">
+                    <div class="step-number">3</div>
+                    <h3>Acompanhe e Otimize</h3>
+                    <p>Monitore o progresso visualmente e identifique oportunidades de melhoria.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Us -->
+    <section id="about" class="about-section">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2>Criado por Aprendizes, <span class="highlight">Feito para Empresas</span></h2>
+                    <p>Somos um grupo de aprendizes em tecnologia que identificou um problema comum nas empresas: a falta de visualização clara das tarefas e processos de onboarding.</p>
+                    <p>Desenvolvemos o TaskFlow para transformar a gestão corporativa em uma experiência visual, intuitiva e eficiente. Acreditamos que ferramentas simples podem gerar grandes resultados.</p>
+                    <div class="team-highlight">
+                        <i class="fas fa-lightbulb"></i>
+                        <p>"Nossa missão é democratizar a gestão visual para empresas de todos os tamanhos."</p>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <div class="team-illustration">
+                        <div class="person person-1">
+                            <div class="avatar-large">DS</div>
+                            <span>Designer</span>
+                        </div>
+                        <div class="person person-2">
+                            <div class="avatar-large">DV</div>
+                            <span>Desenvolvedor</span>
+                        </div>
+                        <div class="person person-3">
+                            <div class="avatar-large">GP</div>
+                            <span>Gestor de Projeto</span>
+                        </div>
+                        <div class="connection-line"></div>
+                        <div class="project-result">
+                            <i class="fas fa-rocket"></i>
+                            <span>TaskFlow</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Pronto para ver sua empresa fluir?</h2>
+                <p>Experimente gratuitamente por 30 dias. Sem cartão de crédito, sem complicação.</p>
+                <div class="cta-buttons">
+                    <a href="dashboard.html" class="btn btn-primary btn-large">
+                        <i class="fas fa-play"></i> Começar Agora
+                    </a>
+                    <a href="#contact" class="btn btn-outline">
+                        Falar com Especialista
+                    </a>
+                </div>
+                <div class="cta-footer">
+                    <div class="benefit">
+                        <i class="fas fa-check-circle"></i>
+                        <span>Suporte 24/7 da nossa equipe</span>
+                    </div>
+                    <div class="benefit">
+                        <i class="fas fa-check-circle"></i>
+                        <span>Atualizações gratuitas para sempre</span>
+                    </div>
+                    <div class="benefit">
+                        <i class="fas fa-check-circle"></i>
+                        <span>Cancelamento a qualquer momento</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="main-footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <div class="logo">
+                        <i class="fas fa-rocket rocket-icon"></i>
+                        <span class="logo-text">Task<span class="logo-flow">Flow</span></span>
+                    </div>
+                    <p class="footer-tagline">Gestão visual feita por aprendizes para empresas inteligentes.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-github"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <div class="link-group">
+                        <h4>Produto</h4>
+                        <a href="#">Funcionalidades</a>
+                        <a href="#">Preços</a>
+                        <a href="#">API</a>
+                        <a href="#">Status</a>
+                    </div>
+                    <div class="link-group">
+                        <h4>Empresa</h4>
+                        <a href="#">Sobre Nós</a>
+                        <a href="#">Carreiras</a>
+                        <a href="#">Blog</a>
+                        <a href="#">Contato</a>
+                    </div>
+                    <div class="link-group">
+                        <h4>Recursos</h4>
+                        <a href="#">Documentação</a>
+                        <a href="#">Tutoriais</a>
+                        <a href="#">Suporte</a>
+                        <a href="#">Comunidade</a>
+                    </div>
+                    <div class="link-group">
+                        <h4>Legal</h4>
+                        <a href="#">Privacidade</a>
+                        <a href="#">Termos</a>
+                        <a href="#">Segurança</a>
+                        <a href="#">Cookies</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 TaskFlow. Desenvolvido com ❤️ por aprendizes em tecnologia. Todos os direitos reservados.</p>
+                <div class="footer-bottom-links">
+                    <span>Português (BR)</span>
+                    <span>Brasil</span>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="scripts/main.js"></script>
+</body>
+</html>
